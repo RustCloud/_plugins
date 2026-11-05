@@ -3,7 +3,10 @@
   "plugins": [
     {
       "id": "rc-office",
-      "name": { "en": "Office", "ru": "Офис" },
+      "name": {
+        "en": "Office",
+        "ru": "Офис"
+      },
       "description": {
         "en": "Edit documents, spreadsheets and presentations from your files in Collabora Online, which runs in a container next to the server.",
         "ru": "Документы, таблицы и презентации из ваших файлов редактируются в Collabora Online — она работает в контейнере рядом с сервером."
@@ -18,6 +21,29 @@
           "url": "https://github.com/RustCloud/rc-office/releases/download/v0.2.3/rc-office.zip",
           "sha256": "52e450c6d31027d5298b4f0ba65083621eb8c7156ef985def82a18fcc8d61bd0",
           "size": 113899
+        }
+      ]
+    },
+    {
+      "id": "rc-photo",
+      "name": {
+        "en": "Photos",
+        "ru": "Фото"
+      },
+      "description": {
+        "en": "A gallery of the photos and videos in your folders: a timeline by day and month, filters by date, camera, place and folder, full-screen viewing. No neural networks, only what the files themselves hold.",
+        "ru": "Галерея фото и видео из ваших папок: лента по дням и месяцам, фильтры по дате, камере, геометке и папкам, просмотр на всю страницу. Без нейросетей — только то, что есть в самих файлах."
+      },
+      "author": "RustCloud",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://github.com/RustCloud/rc-photo",
+      "versions": [
+        {
+          "version": "0.5.2",
+          "api": "^0.2.13",
+          "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.5.2/rc-photo.zip",
+          "sha256": "5179fb8ca687bf0fc1233a6a17ed47bc40eea6fc2a7fd8e213b8c1359c1d7665",
+          "size": 361473
         }
       ]
     }
