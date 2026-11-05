@@ -1,0 +1,31 @@
+# Checks index.json on every change: its format, that published versions stay
+# as they are and that the new or changed archives match it.
+name: Check
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          fetch-depth: 0
+      - name: The catalog before the change
+        run: |
+          base=${{ github.event.pull_request.base.sha || github.event.before }}
+          if [ -n "$base" ] && git cat-file -e "$base:index.json" 2>/dev/null; then
+            git show "$base:index.json" > "$RUNNER_TEMP/base.json"
+            echo "BASE=--base $RUNNER_TEMP/base.json" >> "$GITHUB_ENV"
+          fi
+      - name: Format and published versions
+        run: python3 scripts/check.py index.json $BASE
+      - name: Archives
+        # A manual run checks every archive again.
+        run: python3 scripts/check.py index.json ${{ github.event_name != 'workflow_dispatch' && '$BASE' || '' }} --download

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "plugins": [
+    {
+      "id": "rc-office",
+      "name": { "en": "Office", "ru": "Офис" },
+      "description": {
+        "en": "Edit documents, spreadsheets and presentations from your files in Collabora Online, which runs in a container next to the server.",
+        "ru": "Документы, таблицы и презентации из ваших файлов редактируются в Collabora Online — она работает в контейнере рядом с сервером."
+      },
+      "author": "RustCloud",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://github.com/RustCloud/rc-office",
+      "versions": [
+        {
+          "version": "0.2.3",
+          "api": "^0.2.16",
+          "url": "https://github.com/RustCloud/rc-office/releases/download/v0.2.3/rc-office.zip",
+          "sha256": "52e450c6d31027d5298b4f0ba65083621eb8c7156ef985def82a18fcc8d61bd0",
+          "size": 113899
+        }
+      ]
+    }
+  ]
+}
