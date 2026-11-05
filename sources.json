@@ -1,0 +1,23 @@
+{
+  "keep": 3,
+  "plugins": [
+    {
+      "repo": "RustCloud/rc-office",
+      "description": {
+        "en": "Edit documents, spreadsheets and presentations from your files in Collabora Online, which runs in a container next to the server.",
+        "ru": "Документы, таблицы и презентации из ваших файлов редактируются в Collabora Online — она работает в контейнере рядом с сервером."
+      },
+      "author": "RustCloud",
+      "license": "MIT OR Apache-2.0"
+    },
+    {
+      "repo": "RustCloud/rc-photo",
+      "description": {
+        "en": "A gallery of the photos and videos in your folders: a timeline by day and month, filters by date, camera, place and folder, full-screen viewing. No neural networks, only what the files themselves hold.",
+        "ru": "Галерея фото и видео из ваших папок: лента по дням и месяцам, фильтры по дате, камере, геометке и папкам, просмотр на всю страницу. Без нейросетей — только то, что есть в самих файлах."
+      },
+      "author": "RustCloud",
+      "license": "MIT OR Apache-2.0"
+    }
+  ]
+}
