@@ -18,6 +18,15 @@
       },
       "author": "RustCloud",
       "license": "MIT OR Apache-2.0"
+    },
+    {
+      "repo": "RustCloud/rc-whiteboard",
+      "description": {
+        "en": "Draw boards in Excalidraw from your files, in any folder. The board service runs in a container next to the server. Opens .excalidraw and Nextcloud .whiteboard files.",
+        "ru": "Рисуйте доски Excalidraw прямо в своих файлах, в любой папке. Сервис доски работает в контейнере рядом с сервером. Открывает .excalidraw и .whiteboard из Nextcloud."
+      },
+      "author": "RustCloud",
+      "license": "MIT OR Apache-2.0"
     }
   ]
 }
