@@ -20,10 +20,10 @@
       "license": "MIT OR Apache-2.0"
     },
     {
-      "repo": "RustCloud/rc-office",
+      "repo": "RustCloud/rc-talk",
       "description": {
-        "en": "Edit documents, spreadsheets and presentations from your files in Collabora Online, which runs in a container next to the server.",
-        "ru": "Документы, таблицы и презентации из ваших файлов редактируются в Collabora Online — она работает в контейнере рядом с сервером."
+        "en": "Personal and group chats between the cloud's users. Each user's messages are kept in their own files, and the administrator decides who may write to whom.",
+        "ru": "Личные и групповые чаты между пользователями облака. Сообщения каждого хранятся в его собственных файлах, а кто кому может писать, решает администратор."
       },
       "author": "RustCloud",
       "license": "MIT OR Apache-2.0"
