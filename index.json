@@ -48,6 +48,36 @@
       ]
     },
     {
+      "id": "rc-talk",
+      "name": {
+        "en": "Talk",
+        "ru": "Общение"
+      },
+      "description": {
+        "en": "Personal and group chats between the cloud's users. Each user's messages are kept in their own files, and the administrator decides who may write to whom.",
+        "ru": "Личные и групповые чаты между пользователями облака. Сообщения каждого хранятся в его собственных файлах, а кто кому может писать, решает администратор."
+      },
+      "author": "RustCloud",
+      "license": "MIT OR Apache-2.0",
+      "source": "https://github.com/RustCloud/rc-talk",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "api": "^0.2.19",
+          "url": "https://github.com/RustCloud/rc-talk/releases/download/v0.2.0/rc-talk.zip",
+          "sha256": "e2cefb0737d2a0f680eebc6398f0476390768ea5431f0513aa18bac983c06e82",
+          "size": 189366
+        },
+        {
+          "version": "0.1.0",
+          "api": "^0.2.18",
+          "url": "https://github.com/RustCloud/rc-talk/releases/download/v0.1.0/rc-talk.zip",
+          "sha256": "f7b8dc966b95f1f6be164eede4b527a508bcc42c8b5bcd654cbdc08cc536bf9f",
+          "size": 183173
+        }
+      ]
+    },
+    {
       "id": "rc-whiteboard",
       "name": {
         "en": "Whiteboard",
