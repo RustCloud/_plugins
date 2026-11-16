@@ -20,6 +20,15 @@
       "license": "MIT OR Apache-2.0"
     },
     {
+      "repo": "RustCloud/rc-office",
+      "description": {
+        "en": "Edit documents, spreadsheets and presentations from your files in Collabora Online, which runs in a container next to the server.",
+        "ru": "Документы, таблицы и презентации из ваших файлов редактируются в Collabora Online — она работает в контейнере рядом с сервером."
+      },
+      "author": "RustCloud",
+      "license": "MIT OR Apache-2.0"
+    },
+    {
       "repo": "RustCloud/rc-whiteboard",
       "description": {
         "en": "Draw boards in Excalidraw from your files, in any folder. The board service runs in a container next to the server. Opens .excalidraw and Nextcloud .whiteboard files.",
