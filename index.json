@@ -39,6 +39,13 @@
       "source": "https://github.com/RustCloud/rc-photo",
       "versions": [
         {
+          "version": "0.6.1",
+          "api": "^0.2.20",
+          "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.6.1/rc-photo.zip",
+          "sha256": "c6989d2d1f212eb0f4bbd9a1b9043eb4e71b7a137a096ef3dc097824fa3df489",
+          "size": 410738
+        },
+        {
           "version": "0.6.0",
           "api": "^0.2.20",
           "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.6.0/rc-photo.zip",
