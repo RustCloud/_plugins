@@ -39,6 +39,13 @@
       "source": "https://github.com/RustCloud/rc-photo",
       "versions": [
         {
+          "version": "0.6.0",
+          "api": "^0.2.20",
+          "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.6.0/rc-photo.zip",
+          "sha256": "5a7342c2d079660de4bf898e8d08c0919147434b10128aea132862138486e3db",
+          "size": 409930
+        },
+        {
           "version": "0.5.2",
           "api": "^0.2.13",
           "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.5.2/rc-photo.zip",
@@ -61,6 +68,13 @@
       "license": "MIT OR Apache-2.0",
       "source": "https://github.com/RustCloud/rc-talk",
       "versions": [
+        {
+          "version": "0.2.1",
+          "api": "^0.2.19",
+          "url": "https://github.com/RustCloud/rc-talk/releases/download/v0.2.1/rc-talk.zip",
+          "sha256": "e8746b02a593fda3e9fc7f697bd9eeefbd95f8dda2e4ba4b91faf9351d27bc92",
+          "size": 195252
+        },
         {
           "version": "0.2.0",
           "api": "^0.2.19",
