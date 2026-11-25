@@ -39,6 +39,13 @@
       "source": "https://github.com/RustCloud/rc-photo",
       "versions": [
         {
+          "version": "0.8.1",
+          "api": "^0.2.21",
+          "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.8.1/rc-photo.zip",
+          "sha256": "37ae21ec0f050bc620e321b2fb4ccfd85513b12dab704182be969bb500aa46c8",
+          "size": 476499
+        },
+        {
           "version": "0.8.0",
           "api": "^0.2.20",
           "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.8.0/rc-photo.zip",
@@ -51,13 +58,6 @@
           "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.7.0/rc-photo.zip",
           "sha256": "d16fa0b97425d01db91b3f5328ef35486c96230de9f4a235d1736e870ff2bf37",
           "size": 459628
-        },
-        {
-          "version": "0.6.1",
-          "api": "^0.2.20",
-          "url": "https://github.com/RustCloud/rc-photo/releases/download/v0.6.1/rc-photo.zip",
-          "sha256": "c6989d2d1f212eb0f4bbd9a1b9043eb4e71b7a137a096ef3dc097824fa3df489",
-          "size": 410738
         }
       ]
     },
