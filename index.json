@@ -16,6 +16,13 @@
       "source": "https://github.com/RustCloud/rc-office",
       "versions": [
         {
+          "version": "0.2.4",
+          "api": "^0.2.20",
+          "url": "https://github.com/RustCloud/rc-office/releases/download/v0.2.4/rc-office.zip",
+          "sha256": "4dfec75a7e6f7ef3fe48b172661db90eb874fa84be83344a6f75d8f406397c7c",
+          "size": 116678
+        },
+        {
           "version": "0.2.3",
           "api": "^0.2.16",
           "url": "https://github.com/RustCloud/rc-office/releases/download/v0.2.3/rc-office.zip",
